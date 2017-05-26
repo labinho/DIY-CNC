@@ -1,0 +1,152 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{:01}{url}{}
+      \name{author}{1}{}{%
+        {{hash=3d009dd08a072e28a9e57c0a6859d1c5}{%
+           family={Black},
+           family_i={B\bibinitperiod},
+           given={Roman},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d009dd08a072e28a9e57c0a6859d1c5}
+      \strng{fullhash}{3d009dd08a072e28a9e57c0a6859d1c5}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Good CNC Designs}
+      \verb{url}
+      \verb http://www.romanblack.com/cnc_good.htm
+      \endverb
+      \warn{\item Datamodel: Entry ':01' (../Literatur/LiteraturCNC.bib): Invalid format '02.2008' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{:Heinz_CNC_3.0}{url}{}
+      \name{author}{1}{}{%
+        {{hash=e303b7e7ac4b2028cadc03fd6a595b52}{%
+           family={Heinz},
+           family_i={H\bibinitperiod},
+           given={Norbert},
+           given_i={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{e303b7e7ac4b2028cadc03fd6a595b52}
+      \strng{fullhash}{e303b7e7ac4b2028cadc03fd6a595b52}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CNC V3.0}
+      \verb{url}
+      \verb http://homofaciens.de/technics-machines-cnc-v3-0_ge.htm
+      \endverb
+      \keyw{Pappe,Büroklammern,Servo,Arduino Uno,LCD display}
+    \endentry
+    \entry{:Heinz_CNC_3.1}{url}{}
+      \name{author}{1}{}{%
+        {{hash=e303b7e7ac4b2028cadc03fd6a595b52}{%
+           family={Heinz},
+           family_i={H\bibinitperiod},
+           given={Norbert},
+           given_i={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{e303b7e7ac4b2028cadc03fd6a595b52}
+      \strng{fullhash}{e303b7e7ac4b2028cadc03fd6a595b52}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CNC V3.1 - Linearantriebe und Eigenbau-Drucker}
+      \verb{url}
+      \verb http://homofaciens.de/technics-machines-cnc-v3-1_ge.htm
+      \endverb
+      \keyw{Linearantrieb,Drucker,Arduino Uno,H-Brücke,Gabellichtschranke,Spindel,Bürstenmotor,Rotationsencoder,optische Maus,Schrittmotor,Relais,Druckkopf}
+    \endentry
+    \entry{:Heinz_CNC_3.2}{url}{}
+      \name{author}{1}{}{%
+        {{hash=e303b7e7ac4b2028cadc03fd6a595b52}{%
+           family={Heinz},
+           family_i={H\bibinitperiod},
+           given={Norbert},
+           given_i={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{e303b7e7ac4b2028cadc03fd6a595b52}
+      \strng{fullhash}{e303b7e7ac4b2028cadc03fd6a595b52}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CNC V3.2 - Fräse}
+      \verb{url}
+      \verb http://homofaciens.de/technics-machines-cnc-v3-2_ge.htm
+      \endverb
+      \keyw{Testlauf,Auflösung,Vierkantprofile,Standbohrmaschine,Bohren,Schraubzwinge,Gewindeschneiden,Rahmen,Kugellager,Bürstenmotor,Übersetzung,Frästisch,Kühlmittelkreislauf,Kühlmittelwanne,Justieren,Filter,Scheibenwischer-Pumpe,Zahnradgetriebe}
+    \endentry
+    \entry{:02}{url}{}
+      \name{author}{4}{}{%
+        {{hash=d315f308ecd3f48c9094eef75666f4dc}{%
+           family={Pknoe3lh},
+           family_i={P\bibinitperiod}}}%
+        {{hash=a228da796cdbd8e5d94ab2515be47d34}{%
+           family={Allted},
+           family_i={A\bibinitperiod}}}%
+        {{hash=2e3a30dd6e43dd863dea58add38cccc5}{%
+           family={Cary},
+           family_i={C\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+        {{hash=0f500956f995b17f0e573e313abc6160}{%
+           family={Hardy},
+           family_i={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{877ddf7c5b6ab9bc2d6668bc02723e7a}
+      \strng{fullhash}{2dfe08b486035e075ca6360430ae9428}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CNC Mill}
+      \verb{url}
+      \verb http://reprap.org/wiki/CNC_Mill
+      \endverb
+      \warn{\item Datamodel: Entry ':02' (../Literatur/LiteraturCNC.bib): Invalid format '10.2016' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{:kickstarter}{url}{}
+      \name{author}{1}{}{%
+        {{hash=07c35a4c1ca37318cd41af9e58cb593b}{%
+           family={RP3d},
+           family_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{07c35a4c1ca37318cd41af9e58cb593b}
+      \strng{fullhash}{07c35a4c1ca37318cd41af9e58cb593b}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The MicroMill - A desktop CNC milling machine}
+      \verb{url}
+      \verb https://www.kickstarter.com/projects/rp3d/the-micromill-a-desktop-cnc-milling-machine
+      \endverb
+      \warn{\item Datamodel: Entry ':kickstarter' (../Literatur/LiteraturCNC.bib): Invalid format '11.04.2017' of date field 'urldate' - ignoring}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

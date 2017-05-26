@@ -1,0 +1,19 @@
+[0] Config.pm:343> INFO - This is Biber 2.5
+[1] Config.pm:346> INFO - Logfile is 'CNC.blg'
+[94] biber-darwin:290> INFO - === Fri May 26, 2017, 19:55:41
+[201] Biber.pm:351> INFO - Reading 'CNC.bcf'
+[317] Biber.pm:776> INFO - Found 6 citekeys in bib section 0
+[333] Biber.pm:3493> INFO - Processing section 0
+[402] Biber.pm:3657> INFO - Looking for bibtex format file '../Literatur/LiteraturCNC.bib' for section 0
+[414] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[418] bibtex.pm:1048> INFO - Found BibTeX data source '../Literatur/LiteraturCNC.bib'
+[427] Utils.pm:149> WARN - Datamodel: Entry ':01' (../Literatur/LiteraturCNC.bib): Invalid format '02.2008' of date field 'urldate' - ignoring
+[429] Utils.pm:149> WARN - Datamodel: Entry ':kickstarter' (../Literatur/LiteraturCNC.bib): Invalid format '11.04.2017' of date field 'urldate' - ignoring
+[434] Utils.pm:149> WARN - Datamodel: Entry ':02' (../Literatur/LiteraturCNC.bib): Invalid format '10.2016' of date field 'urldate' - ignoring
+[486] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[487] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[487] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'de-DE'
+[487] Biber.pm:3310> INFO - No sort tailoring available for locale 'de-DE'
+[494] bbl.pm:526> INFO - Writing 'CNC.bbl' with encoding 'UTF-8'
+[495] bbl.pm:619> INFO - Output to CNC.bbl
+[496] Biber.pm:108> INFO - WARNINGS: 3

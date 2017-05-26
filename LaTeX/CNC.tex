@@ -1,0 +1,191 @@
+\documentclass[
+	a4paper,
+	%DIV=13,
+	smallheadings,
+	%headinclude,
+	%footinclude,
+	%headsepline,
+	%parindent,
+	german,
+	%captions=tableheading,
+	%abstracton
+	]
+	{scrreprt}
+\usepackage{blindtext}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[
+	left	= 2 cm,
+	right	= 2 cm,
+	top		= 2 cm,
+	bottom	= 4 cm
+	]
+	{geometry}
+%\typearea[current]{calc}
+\usepackage{lmodern}			
+\usepackage{microtype}			
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{amsmath,amssymb}
+\usepackage{chemformula}
+\usepackage{chemfig}
+\usepackage{siunitx}
+\DeclareSIUnit\year{a}
+\usepackage{tabularx} 			
+\usepackage{mdwlist}
+\usepackage{caption}
+\usepackage[babel,german=quotes]{csquotes}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+		colorlinks	= true,
+		linkcolor	= black,
+		urlcolor	= blue,
+		citecolor	= blue,
+		pdftitle    = {Titel},
+  		pdfsubject  = {CNC},
+  		pdfauthor   = {Christopher Labisch},
+  		pdfkeywords = {Tags} ,
+  		pdfcreator  = {pdflatex},
+  		pdfproducer = {LaTeX with hyperref}
+	}
+\usepackage[style=numeric-comp]{biblatex}
+\def\bibfont{\footnotesize}
+\bibliography{../Literatur/LiteraturCNC}
+
+\title{CNC Eigenbau}
+\subtitle{Open Source Projekt, Version 1.0}
+\date{18.05.2017}
+\author{Dawid Konczak, \\ Christopher Labisch, \\ Alexander Lohberg}
+
+\begin{document}
+
+
+\maketitle
+\tableofcontents
+
+\chapter{Open Hardware CNC-Maschinen}
+Eine kleine Bildergalerie zu industriellen und DIY-CNC-Maschinen stammt von Roman Black \autocite{:01}.
+Er kommentiert einzelne Aspekte der Modelle wie Schlupf von Linearwagen, Antriebsarten, austauschbare Werkzeuge oder verwendete NEMA-Schrittmotoren.
+
+
+
+\section{HomoFaciens CNC}
+Norbert Heinz (auch bekannt als HomoFaciens) hat einige Prototypen gefertigt.
+Hier seien die neusten Entwicklungen angesprochen.
+Als Designstudie wurde ein Plotter-Modell aus Pappe gebaut \autocite{:Heinz_CNC_3.0}.
+Besonders die Steifigkeit und Geschwindigkeit als Schwachpunkte sind anschaulich erklärt.
+
+In der Version 3.1 werden experimentell verschiedene Linearantriebe betrachtet \autocite{:Heinz_CNC_3.1}.
+Diese werden mit einem alten Druckerantrieb, Bürstenmotoren oder Schrittmotoren angetrieben.
+Als Sensoren zur Postionsbestimmung kommen Gabellichtschranken, eine optische Maus, oder ein Rotationsencoder zum Einsatz.
+Die Ansteuerung erfolgt mit einem Arduino Uno.
+
+In der Version 3.2 wird der Aspekt der Konstruktion näher erläutert \autocite{:Heinz_CNC_3.2}.
+Besonders die Bearbeitung der Metallprofile wie Bohren, Biegen, Gewindeschneiden werden erläutert.
+Die Spindel wird testweise über verschiedene Übersetzungs-Arten bzw. Zahnradgetriebe angetrieben.
+Außerdem wird ein Kühlmittelkreislauf zur Verbesserung der Auflösung in der Tiefe (z-Achse) gezeigt. 
+Vor der Inbetriebnahme für einen Test wird der Frästisch über Schrauben feinjustiert.
+Nachteilig sind die große Anzahl an Verschraubungen und die mühselige Konstruktion an sich.
+Der Preis für die Einzelteile wird mit ungefähr 350€ angegeben. 
+
+\section{RepRap CNC}
+Es gibt einige CNC-Versionen auf RepRap-Basis \autocite{:02}.
+
+\section{MicroMill CNC}
+Eine kleine CNC-Version im Schreibtischformat wurde kürzlich auf Kickstarter beworben \autocite{:kickstarter}.
+Bei diesem Modell wird besonders Wert auf die Einfachheit und Flexibilität gelegt.
+Ein besonderes Merkmal ist die Auswahl der Kugel- und Linearlager (Fa. Igus) und die Nutzung eines verfügbaren Wekrzeugs (Fa. Proxxon). 
+Der Preis beläuft sich auf \$818, wobei nicht weiter aufgeschlüsselt wird. 
+
+\chapter{Projektmanagement}
+Die Herausforderung liegt in dem Projektmanagement, da es sich um ein recht umfangreiches Projekt handelt, das mit wenigen Ressourcen auskommen muss.
+Viele Teile benötigt werden und eine lange zu erwartende Produktionsphase steht bevor.
+Ein wesentliches Ziel ist die Projektphase so kurz wie möglich zu halten bei Gewährleistung einer guten Produktqualität.
+
+Zu Beginn sind drei Personen involviert, die dieses Projekt unterstützen.
+Für den 10.6.2017 ist ein erstes Treffen andauernd, Bei dem konzeptionellen Entwürfe erarbeitet und wichtige Rahmenbedingungen geklärt werden sollen.
+Das Projekt als Open Source Hardware ausgelegt ist, soll es au Github dokumentiert werden.
+Für meine persönliche Planung würde ich \texttt{Microsoft Project} benutzen, ich kann mir vorstellen, das außer mir niemand dieses Programm benutzt.
+Daher wäre es gut, wenn es ein Programm oder eine Plattform gäbe, wo die Ressourcen geplant werden können.
+
+Es könnte eine Art Fahrplan gestellt werden in Form eines Gantt-Diagramms mit Projektphasen und der Definition von Meilensteinen.
+Zu Beginn steht die Erarbeitung von Konzepten im Vordergrund, wobei doch schon klar werden soll welche Anforderungen an die Maschine gestellt werden und wie man diese Anforderungen einfach erfüllen kann.
+Dies betrifft insbesondere die Materialliste, die möglichst kurz ausfallen soll und die Verfügbarkeit von Materialien.
+Ein weiterer wichtiger Aspekt ist die Durchführung der Arbeit an entsprechenden Orten mit entsprechendem Werkzeug.
+
+\section{Projektphasen}
+\subsection{Definition von Projektphasen und Meilensteinen}
+\subsection{Anforderungsprofil}
+\subsection{Recherche}
+\subsection{Konzeptionierung}
+\subsection{Preisvergleich}
+
+\chapter{Komponenten}
+\section{Koordinatentisch}
+	\subsection{Aluminiumsystemprofile}
+	\subsection{Tisch}
+	\subsection{Werkstück-Befestigung}
+	\subsection{Kühlmittel-Auffangbecken}
+\section{Antrieb}
+	\subsection{Antriebswelle}
+	\subsection{Antriebsmotoren}
+		\section{Bürstenmotoren}
+		\section{Schrittmotoren}
+\section{Werkzeug}
+	\subsection{Werkzeugantrieb}
+	\subsection{Bohrmaschine}
+		\subsection{Bohrfutter}
+		\subsection{Bohrer}
+\section{Gerüst}
+	\subsection{L-Form}
+	\subsection{C-Form}
+\subsection{Stahlprofile}
+\subsection{Schutz}
+\section{Kühlkreislauf}
+	\subsection{Kühlmittel}
+	\subsection{Schläuche}
+	\subsection{Pumpe}
+	\subsection{Filter}
+\section{Elektronik-Hardware}
+	\subsection{Netzteil}
+	\subsection{Kabel}
+	\subsection{Kabelführung}
+	\subsection{Display}
+	\subsection{PC-Schnittstelle}
+	\subsection{Microcontroller}
+	\subsection{Treiber}
+	\subsection{Relais}
+\section{Elektronik-Software}
+
+\chapter{Methoden}
+
+\section{Modellieren}
+	\subsection{FreeCAD}
+	\subsection{Illustrator}
+	\subsection{Excel}
+\section{Konstruktion}
+Bei der Konstruktion ist zu beachten, dass die Module nicht zu großen Drehmomenten ausgesetzt sind, da sonst Spiel in die Mechanik kommt.
+Deshalb ist es wichtig Torsionskräfte und Hebelkräfte zu kompensieren.
+Dazu eignen sich z.B. Fachwerke oder Knotenbleche.
+	\subsection{Fachwerk}
+	\subsection{Knotenbleche}
+Ein alter Dachdecker-Spruch besagt: \quote{Viereck vergeht, Dreieck besteht.}
+	\subsection{Stecken}
+	\subsection{Langloch-Verbinden}
+	\subsection{Schrauben}
+		\subsection{Schraubverbindung}
+	\subsection{Lager}
+		\subsection{Linearlager}
+		\subsection{Axiallager}
+\section{Bohren}
+\section{Schweißen}
+	\section{MAK}
+\section{Schneiden}
+\subsection{Gewindeschneiden}
+
+
+\printbibliography
+
+
+\end{document} 
