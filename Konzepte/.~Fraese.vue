@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.3.0 concept-map (Fraese.vue) 2017-06-25 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/Resources/Java/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Sun Jun 25 11:25:53 CEST 2017 by christopherlabisch on platform Mac OS X 10.12.3 in JVM 1.6.0_65-b14-468-11M4833 -->
+<!-- Do Not Remove: Saved date Sun Jun 25 11:19:25 CEST 2017 by christopherlabisch on platform Mac OS X 10.12.3 in JVM 1.6.0_65-b14-468-11M4833 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0" label="Fraese.vue"
     created="1497186618043" x="0.0" y="0.0" width="2975.5"
     height="805.5" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1498382753265" size="77245"
+    <resource referenceCreated="1498382366021" size="74652"
         spec="/Users/christopherlabisch/Documents/Projekte/DIY-CNC/Konzepte/Fraese.vue"
         type="1" xsi:type="URLResource">
         <title>Fraese.vue</title>
@@ -1350,8 +1350,7 @@
         layerID="1" created="1497521095641" x="945.16895"
         y="-12.9904785" width="202.0" height="36.0" strokeWidth="1.0"
         autoSized="true" xsi:type="node">
-        <resource referenceCreated="0" accessAttempted="1498382749637"
-            accessSuccessful="1498382749638"
+        <resource referenceCreated="0"
             spec="C:\Users\privat\AppData\Local\Temp\CNC-Umbau Proxxon MF70 - Herberts-Spur N-Projekt.URL"
             type="1" xsi:type="URLResource">
             <title>CNC-Umbau Proxxon MF70 - Herberts-Spur N-Projekt.URL</title>
