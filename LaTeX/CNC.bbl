@@ -99,6 +99,65 @@
       \endverb
       \keyw{Testlauf,Auflösung,Vierkantprofile,Standbohrmaschine,Bohren,Schraubzwinge,Gewindeschneiden,Rahmen,Kugellager,Bürstenmotor,Übersetzung,Frästisch,Kühlmittelkreislauf,Kühlmittelwanne,Justieren,Filter,Scheibenwischer-Pumpe,Zahnradgetriebe}
     \endentry
+    \entry{:ZuJeddeloh}{url}{}
+      \name{author}{1}{}{%
+        {{hash=49f5ed0a742874fd6effb8a134c5e234}{%
+           prefix={zu},
+           prefix_i={z\bibinitperiod},
+           family={Jeddeloh},
+           family_i={J\bibinitperiod},
+           given={Horst},
+           given_i={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{49f5ed0a742874fd6effb8a134c5e234}
+      \strng{fullhash}{49f5ed0a742874fd6effb8a134c5e234}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Werkzeuge Maschinen Goldschmiedebedarf}
+      \verb{url}
+      \verb http://www.zujeddeloh.de/
+      \endverb
+    \endentry
+    \entry{:Herbert}{url}{}
+      \name{author}{1}{}{%
+        {{hash=4f01ef8713c013770f4d12d5f9fedb42}{%
+           family={König},
+           family_i={K\bibinitperiod},
+           given={Herbert},
+           given_i={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f01ef8713c013770f4d12d5f9fedb42}
+      \strng{fullhash}{4f01ef8713c013770f4d12d5f9fedb42}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CNC-Umbau einer Proxxon MF70 Microfräse}
+      \verb{url}
+      \verb https://www.herberts-n-projekt.de/basteleien-1/cnc-umbau-proxxon-mf70/
+      \endverb
+    \endentry
+    \entry{:Meissner}{url}{}
+      \name{author}{1}{}{%
+        {{hash=5d6e30e78b42c4696956bfcebf05ca6c}{%
+           family={Mei{ß}ner},
+           family_i={M\bibinitperiod},
+           given={Philipp},
+           given_i={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d6e30e78b42c4696956bfcebf05ca6c}
+      \strng{fullhash}{5d6e30e78b42c4696956bfcebf05ca6c}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CNC-Software -- GRBL}
+      \verb{url}
+      \verb http://digital-nw.de/CNC-Software.htm
+      \endverb
+    \endentry
     \entry{:02}{url}{}
       \name{author}{4}{}{%
         {{hash=d315f308ecd3f48c9094eef75666f4dc}{%
