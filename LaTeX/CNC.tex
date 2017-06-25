@@ -72,6 +72,10 @@ Eine kleine Bildergalerie zu industriellen und DIY-CNC-Maschinen stammt von Roma
 Er kommentiert einzelne Aspekte der Modelle wie Schlupf von Linearwagen, Antriebsarten, austauschbare Werkzeuge oder verwendete NEMA-Schrittmotoren.
 
 
+\section{Arcitype}
+
+Ein ausführliches CNC Projekt ist von DoES Liverpool beschrieben. \autocite{:Arcitype}
+
 
 \section{HomoFaciens CNC}
 Norbert Heinz (auch bekannt als HomoFaciens) hat einige Prototypen gefertigt.
@@ -143,7 +147,7 @@ Es folgte eine Diskussion über mögliche Fräsköpfe.
 Es wurden angreifende Kräfte (Normalkraft, Querkraft, ...) und Materialeigenschaften der Werkstücke (Carbon, Aluminium, Kupfer, Silber, Messing, Maschinenmessing, ...)  besprochen.
 Es folgen weitere Recherchen über die zu erwartenden Kräfte (Dawid) und Software-Ansteuerung (Christopher).
 
-Das weitere Projekt-Vorhaben wurde als \textit{Gantt-Diagramm} in \texttt{ProjectLibre} (\texttt{/Konzepte/Fräsenbau20170615.pod}) festgehalten. 
+Das weitere Projekt-Vorhaben wurde mit \texttt{ProjectLibre} als \textit{Gantt-Diagramm} (\texttt{Fräsenbau20170615.pod}) im Verzeichnis \texttt{/Konzepte} festgehalten. 
 
 
 \section{Projektphasen}
@@ -189,11 +193,21 @@ Das weitere Projekt-Vorhaben wurde als \textit{Gantt-Diagramm} in \texttt{Projec
 	\subsection{Treiber}
 	\subsection{Relais}
 \section{Elektronik-Software}
-Die Schrittmotoren sollen über einen Arduino angesteuert werden sollen.
+Die Schrittmotoren und die Fräse sollen über einen Arduino angesteuert werden sollen.
 Dafür ist es nötig, dass ein Programm ein Modell des Werkstücks in Pfade umwandelt.
 Die Pfade sollen parametrisiert abgefahren werden können.
 
-Herbert König hat mit mit einem \textit{Arduino Uno} und einer \textit{GBRL}-Software eine \textit{Proxxon MF70} Microfräse umgebaut und programmiert \autocite{:Herbert}. Philipp Meißner gibt eine kurze Erlkärung zu GBRL \autocite{:Meissner}.
+\subsection{Grbl -- open-source CNC controller}
+Grbl ist eine open-source Software zur Steuerung von Maschinenbewegungen mit Hilfe eines Arduino Uno \autocite{:Sonny2017}.
+
+Es gibt verschiedne Hobby- und professionelle Projekte, die Grbl als Software benutzen \autocite{:Herbert,:kickstarter,:Meissner}.
+
+Viele open-source 3D-Drucker nutzen diese software, außerdem gibt es Modifikationen für ähnliche Anwendungen.
+Die Software verfügt über ein grafisches User-Interface (GUI), ermöglicht aber auch die Eingabe über eine Konsole.
+Grbl verarbeitet \textit{g-Code}.
+
+Grbl kann kartesische Koordinaten abfahren (x, y, z). 
+Mit Grbl ist es jedoch (noch) nicht möglich eine Rotationsbewegung (d.h. in Polarkoordinaten) umzusetzen.
 
 \chapter{Methoden}
 
