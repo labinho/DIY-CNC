@@ -198,9 +198,9 @@ Dafür ist es nötig, dass ein Programm ein Modell des Werkstücks in Pfade umwa
 Die Pfade sollen parametrisiert abgefahren werden können.
 
 \subsection{Grbl -- open-source CNC controller}
-Grbl ist eine open-source Software zur Steuerung von Maschinenbewegungen mit Hilfe eines Arduino Uno \autocite{:Sonny2017}.
+Grbl ist eine open-source Software zur Steuerung von Maschinenbewegungen mit Hilfe eines \textbf{Arduino Uno} \autocite{:Sonny2017}.
 
-Es gibt verschiedne Hobby- und professionelle Projekte, die Grbl als Software benutzen \autocite{:Herbert,:kickstarter,:Meissner}.
+Es gibt verschiedne Hobby- und professionelle Projekte, die Grbl als Software benutzen \autocite{:Herbert,:kickstarter,:Meissner,:NYC_CNC_01}.
 
 Viele open-source 3D-Drucker nutzen diese software, außerdem gibt es Modifikationen für ähnliche Anwendungen.
 Die Software verfügt über ein grafisches User-Interface (GUI), ermöglicht aber auch die Eingabe über eine Konsole.
@@ -208,6 +208,23 @@ Grbl verarbeitet \textit{g-Code}.
 
 Grbl kann kartesische Koordinaten abfahren (x, y, z). 
 Mit Grbl ist es jedoch (noch) nicht möglich eine Rotationsbewegung (d.h. in Polarkoordinaten) umzusetzen.
+
+Zusätzlich braucht man ein \textbf{grbl Shield}.
+Es wurde China-Ware für 13,37 € bei eBay bestellt:
+\begin{itemize*}
+	\item 1 $\times$CNC Shield V3.0
+	\item 1 $\times$UNO R3
+	\item 4 $\times$ A4988 Driver
+\end{itemize*}
+
+folgende Infos stammen aus dem youtube-Video \textit{DIY Arduino CNC Machine with GRBL Shield - Setup Tutorial!
+NYC CNC} des \textit{CNC NYC}-Kanals\autocite{:NYC_CNC_01}:
+\subsubsection{grbl Software auf den Arduino Uno booten}
+Auf gitHub gibt es die Software \href{https://github.com/synthetos/grblShield}{grblShield}.
+Man muss eine \texttt{.hex}-Datei auf den Arduino-Prozessor laden, um grbl lauffähig zu machen.
+
+\subsubsection{Universal G-Code Sender}
+Weiterhin braucht man die Software Universal \href{https://github.com/winder/Universal-G-Code-Sender}{G-Code Sender} (gitHub), um g-Code zu streamen.
 
 \chapter{Methoden}
 

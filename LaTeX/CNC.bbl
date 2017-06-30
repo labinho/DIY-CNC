@@ -228,6 +228,27 @@
       \keyw{grbl}
       \warn{\item Datamodel: Entry ':kickstarter' (../Literatur/LiteraturCNC.bib): Invalid format '11.04.2017' of date field 'urldate' - ignoring}
     \endentry
+    \entry{:NYC_CNC_01}{url}{}
+      \name{author}{1}{}{%
+        {{hash=8e9288fee7d873b2ebc85f1516126ee0}{%
+           family={Saunders},
+           family_i={S\bibinitperiod},
+           given={John},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8e9288fee7d873b2ebc85f1516126ee0}
+      \strng{fullhash}{8e9288fee7d873b2ebc85f1516126ee0}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This video shows how to set up an Arduino, Stepper motors, and a GRBL Shield to create an inexpensive but powerful DIY CNC system! The GRBL Shield is a great way to use G-Code to create an Arduino-based CNC machine, but setting up the software and wiring the hardware can be confusing! This video walks through every step of the process! This video is a "foundation" video for two CNC machines we are about to do a DIY build-series of videos one: one is a DIY CNC gantry sorting machine, the other is a DIY CNC Pneumatic Engraving machine! CAD Model (SolidWorks) available for download at http://bit.ly/1LaLPhv (For Patreon Supporters) Click to see a DIY CNC build to use machine and GRBL & Arduino as a pen plotter! https://www.youtube.com/watch?v=WKmzl... Products used in the video: Arduino Uno: http://amzn.to/1E0gxVU GRBL Shield: http://bit.ly/1vJbWY9 Aluminum Brackets: http://bit.ly/1U1VhMz Power Supply: http://amzn.to/1ufK1cX Stepper Motors: http://amzn.to/1MOGUnS My Favorite Multi-Meter (cheap!): http://amzn.to/1qppo2C or http://amzn.to/1siEp1C GRBL Links: XLoader:http://bit.ly/1zMaraQ GRBL Hex: http://bit.ly/1vBO4R7 G-Code Sender: http://bit.ly/1we597w Using GRBL Shield: http://bit.ly/1Gh08xn We also added a Z-Axis - check it out at https://youtu.be/gzLYNSQEPDk If you enjoy this NYC CNC video please hit the like button and share with a friend, it really goes a long way! Recent Videos: Machining Hard Steel with Soft Jaws: https://www.youtube.com/watch?v=lLxyn... Control Large DC Motors with Arduino: https://www.youtube.com/watch?v=OW-Bf... Subscribe For More - http://www.youtube.com/subscription_c... Follow on Twitter - http://twitter.com/nyccnc Facebook - https://www.facebook.com/nyccnc Instagram http://instagram.com/saundersmachinew...}
+      \field{title}{DIY Arduino CNC Machine with GRBL Shield - Setup Tutorial!}
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=1ioctbN9JV8
+      \endverb
+      \warn{\item Datamodel: Entry ':NYC_CNC_01' (../Literatur/LiteraturCNC.bib): Invalid format '09.12.2014' of date field 'urldate' - ignoring}
+    \endentry
     \entry{:Arcitype}{url}{}
       \name{author}{1}{}{%
         {{hash=1891eded76557259d7aee7ea85f4c979}{%
